@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/contact/activity-records</path>
+    <page_callback>CRM_Orgar_Page_OrganizationActivityRecords</page_callback>
+    <title>OrganizationActivityRecords</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/admin/setting/org-activity-records</path>
+    <page_callback>CRM_Orgar_Form_OrgarSettings</page_callback>
+    <title>Organization's activity settings</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+</menu>

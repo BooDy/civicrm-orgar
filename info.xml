@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<extension key="org.42lab.orgar" type="module">
+  <file>orgar</file>
+  <name>Organization Activity Records</name>
+  <description>Displays a tab in the organization page to list all of the activities 
+      performed by contacts with any relations to this organization</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Abdelrahman Ghareeb</author>
+    <email>abdelrahman@slashproc.net</email>
+  </maintainer>
+  <urls>
+      <url desc="Main Extension Page">http://42lab.org/civicrm-activity-records</url>
+      <url desc="Documentation">http://42lab.org/civicrm-activity-records/docs</url>
+      <url desc="Support">http://42lab.org/contact</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2016-11-26</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <civix>
+    <namespace>CRM/Orgar</namespace>
+  </civix>
+</extension>
