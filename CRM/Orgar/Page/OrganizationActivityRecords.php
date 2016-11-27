@@ -32,6 +32,7 @@ class CRM_Orgar_Page_OrganizationActivityRecords extends CRM_Core_Page {
                              'record_type_id' => 'Activity Assignees',
                              'api.Activity.get' => array('activity_type_id' => array('IN' => $activities_tracked)),
                              'api.Contact.get' => array('contact_type' => 'Individual'),
+                             'api.OptionValue.get' => array(),
                         );
                         $activities[$individual] = civicrm_api3('ActivityContact', 'get', $params);
                 }
